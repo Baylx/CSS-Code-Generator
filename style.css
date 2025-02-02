@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Faculty+Glyphic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dm Sans", sans-serif;
+    background-color: #ffffff;
+}
+
+
+
+.title-container{
+    width: fit-content;
+    height: fit-content;
+    padding: 5rem 10rem 0rem 10rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.title-container h1{
+    font-size: 3rem;
+}
+
+.title-container p{
+    color: rgb(132, 137, 137);
+    font-size: 1.25rem
+}
+
+.colour-container{
+    width: 100%;
+    height: auto;
+    padding: 6rem 10rem 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 6rem;
+}
+
+.first-colour-section,.second-colour-section,.third-colour-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.first-colour-box,.second-colour-box,.third-colour-box{
+    width: auto;
+    height: 6rem;
+    background-color: beige;
+    border-radius: 0.5rem;
+}
+
+
+
+.second-colour-box:hover, .first-colour-box:hover,.third-colour-box:hover{
+    border: 2.5px solid rgb(0, 0, 0);
+}
+
+.textbox-with-icon1, .textbox-with-icon2, .textbox-with-icon3{
+    width: fit-content;
+    height: auto;
+    border: 1.5px solid rgb(231, 232, 232);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    align-items: center;
+}
+
+.copy-icon{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    
+}
+
+.textbox-with-icon1, .textbox-with-icon2, .textbox-with-icon3 p{
+    font-size: 1.5rem;
+
+}
+
+
+.button-set{
+    width: fit-content;
+    height: fit-content;
+    padding-left: 10rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10rem
+    
+}
+
+
+
+    
+
+
+.buttongen{
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 0.5rem;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttongen:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.buttongen:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.buttongen:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+.clearbutton{
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 0.5rem;
+    border-width: 0;
+    box-shadow: #ff746c 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#ff746c 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .clearbutton:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .clearbutton:hover {
+    box-shadow: #ff746c 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #ff746c 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .clearbutton:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+
+
+
+  
+
+  .tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 130%;
+    left: 120%;
+    transform: translateX(-50%);
+    background-color: #000000;
+    color: #fff;
+    font-size: 1.05rem;
+    padding: 8px 8px;
+    border-radius: 0.5rem;
+    white-space: nowrap;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  /* Show tooltip on hover */
+  .copy-icon:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  Change color on click
+  .copy-icon.copied .copy-svg.copied .tooltip-text::after {
+    background-color: #4caf50; /* Green color for success */
+  }
+  
+  /* Change tooltip text on click */
+  .copy-icon.copied .tooltip-text::after {
+    background-color: #4caf50; /* Green color for success */
+    
+    content: "Copied!";
+  }
