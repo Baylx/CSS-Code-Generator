@@ -44,11 +44,11 @@ let hexCodeForSecondBox = "#"
 
     clearButton.addEventListener("click", function(){
         firstColorBox.style.backgroundColor = "#F5F5DC";
-      secondColorBox.style.backgroundColor = "#F5F5DC";
-      thirdColorBox.style.backgroundColor = "#F5F5DC";
+      secondColorBox.style.backgroundColor = "#DBDBC5";
+      thirdColorBox.style.backgroundColor = "#C2C2AE";
       firstHexCode.textContent = "#F5F5DC";
-      secondHexCode.textContent = "#F5F5DC";
-      thirdHexCode.textContent = "#F5F5DC";
+      secondHexCode.textContent = "#DBDBC5";
+      thirdHexCode.textContent = "#C2C2AE";
 
     })
 
